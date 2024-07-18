@@ -536,10 +536,11 @@ nav ul li a:hover {
 
 /* Three Buttons First */
 .three-buttons {
-  width: 1150px;
+  margin: auto;
+  width: 100%;
   display: flex;
   position: absolute;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 230px;
 }
 .button1 button {
@@ -577,12 +578,15 @@ nav ul li a:hover {
 
 /* More Info Styling */
 .more-info-tab {
+  margin: auto;
   display: flex;
-  width: 1100px;
-  margin-left: 20px;
+  width: 100%;
   position: absolute;
   margin-top: 360px;
-  justify-content: space-between;
+  justify-content: center;
+}
+.infos {
+  margin-right: 150px;
 }
 .info-one {
   width: 400px;
@@ -668,6 +672,7 @@ footer {
   background: #100f0f;
   color: #494646;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 /* Making it responsive */
